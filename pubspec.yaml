@@ -1,0 +1,34 @@
+name: e190_smart
+description: Mercedes E190 W201 — 34 AU 966
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mqtt_client: ^10.2.1
+  flutter_blue_plus: ^1.31.5
+  geolocator: ^11.0.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  fl_chart: ^0.68.0
+  flutter_local_notifications: ^17.2.2
+  http: ^1.2.1
+  permission_handler: ^11.3.1
+  flutter_animate: ^4.5.0
+  mjpeg_player: ^1.0.0+1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
